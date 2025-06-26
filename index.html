@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Otaku Republic | Inicio</title>
+</head>
+<body>
+    <!-- Encierra el encabezado del sitio (titulo, navegacion, carrito, input de busqueda). El contenido se repite en todos los archivos -->
+    <header>
+    <!-- Encierra el centro de navegacion de un archivo, menu de navegacion -->
+        <div class="header-content">
+            <img src="assets/ojito.png" class="image" alt="logo otaku republic con fondo color tono de azul verdoso oscuro">
+            <h1>Otaku Republic</h1>
+        </div>  
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="pages/productos.html">Productos</a></li>
+                            <li><a class="dropdown-item" href="pages/quienes-somos.html">Quienes Somos?</a></li>
+                            <li><a class="dropdown-item" href="pages/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                            <li><a class="dropdown-item" href="pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                     <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Encierra el contenido principal de un archivo html, no se repite -->
+    <div class="container-div">
+        <!-- Separa en temas el contenido prinicpal y especifico de un archivo -->
+        <section>
+            <div>
+                <img src="assets/ojito.png" alt="">
+            </div>
+        </section>
+        <main>
+            <h2>Productos destacados</h2>
+            <div class="products">
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/rtx-360.jpeg" class="card-img-top" alt="placa de video rtx 3060">
+                    <div class="card-body">
+                        <h5 class="card-title">RTX 3060 - 12GB</h5>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/amd-procesador-ryzen-7-5800X.jpeg" class="card-img-top" alt="procesador amd ryzen 7 5800x">
+                    <div class="card-body">
+                        <h5 class="card-title">Procesador AMD Ryzen 7 5800X</h5>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/teclado-mecanico-redragon.jpeg" class="card-img-top" alt="teclado mecanico redragon 60% akali rgb">
+                    <div class="card-body">
+                        <h5 class="card-title">Teclado redragon 60% Akali RGB</h5>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                </div>
+        </main>    
+    </div>
+    <!-- En cierra el contenido de pie de pagina -->
+   
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com">
+                <img src="assets/instagram-icono.png" alt="instagram">
+            </a>
+            <a href="https://wwww.facebook.com">
+                <img src="assets/facebook-icon.png" alt="facebook">
+            </a>
+            <a href="https://www.tiktok.com">
+                <img src="assets/tik-tok-icon.png" alt="tik tok">
+            </a>
+        </div>
+        <div class="copy">
+            <form action="">
+                <label for="newsletter">Newsletter</label>
+                <input type="email" name="" id="">
+            </form>
+            <p>&copy; Otaku Republic 2025</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
